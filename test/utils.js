@@ -13,6 +13,5 @@ export function assertEquals(got, want, id){
   if (got !== want){
     const errMsg = `${id??'unknow'}() = ${got}, but want: ${want}`;
     throw new Error(errMsg);
-    //console.error(errMsg);
   }
 }

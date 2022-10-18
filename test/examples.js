@@ -80,5 +80,5 @@ export function testGetExponentBuyingPrice() {
   const gotPrice = calculator.getBuyingPrice(
     delta, spotPrice, amount);
   // 校验预期结果
-  assertEquals(gotPrice, expResult, 'getSellingPrice');
+  assertEquals(gotPrice, expResult, 'getBuyingPrice');
 }
