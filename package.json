@@ -1,0 +1,17 @@
+{
+  "name": "nftcurve.js",
+  "version": "1.0.0",
+  "description": "NFT curve calculator",
+  "homepage": "https://github.com/militch/nftcurve#readme",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "github.com:militch/nftcurve",
+  "author": "Militch",
+  "license": "ISC",
+  "dependencies": {
+    "decimal.js": "^10.4.2"
+  }
+}
